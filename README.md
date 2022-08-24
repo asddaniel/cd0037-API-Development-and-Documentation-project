@@ -89,29 +89,13 @@ keys:
 ],
 "categories": [
 {
-"id": 1,
-"type": "Science"
+
+"1": "Science"
 },
 {
-"id": 2,
-"type": "Art"
-},
-{
-"id": 3,
-"type": "Geography"
-},
-{
-"id": 4,
-"type": "History"
-},
-{
-"id": 5,
-"type": "Entertainment"
-},
-{
-"id": 6,
-"type": "Sports"
+"2": "Art"
 }
+
 ],
 "success": true,
 "totalQuestions": 19
@@ -206,6 +190,6 @@ required arguments: the category id
 "totalQuestions": 4
 }
 
-*** POST '/play'
+*** POST '/quizzes'
 
 returns a random question different from the question whose id was sent in the request
